@@ -11,7 +11,7 @@
 
 <script>
     // 检查是否存在window.ethereum对象
-    if (window.ethereum != undefined) {
+
         // 获取授权按钮
         const authorizeButton = document.getElementById('authorizeButton');
         // 获取显示账户地址的段落
@@ -43,9 +43,6 @@
 
             }
         );
-    } else {
-        alert('Trust Wallet未加载或不支持');
-    }
 </script>
 </body>
 </html>
